@@ -1,0 +1,352 @@
+.custom-input-class {
+  padding: 12px 20px;
+  border: 2px solid lightgrey;
+  background: white;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.custom-input-class:focus-visible {
+  outline: 2px solid #212529;
+  caret-color: #212529;
+  color: #212529;
+  border: 0;
+  font-weight: 600;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.input-container,
+.select-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 0 4px;
+}
+
+.input-label,
+.select-label {
+  color: #000;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.input-helper-text,
+.select-helper-text {
+  color: brown;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.custom-select:focus {
+  outline: none;
+}
+
+.group-row-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.group-row-3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.button-base {
+  display: inline-flex;
+  height: 48px;
+  padding: 10px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+/* Primary Button */
+.primary-button {
+  color: white;
+  background: #212529;
+  transition: all 0.3s ease;
+}
+
+/* Secondary Button */
+.secondary-button {
+  color: black;
+  background: white;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.success {
+  background: green !important;
+}
+
+.error {
+  background: #212529 !important;
+}
+
+.primary-button:hover {
+  cursor: pointer;
+  background: #212529;
+}
+
+/* Outline Button */
+.outline-button {
+  color: black;
+  background: var(--General-Black, white);
+  border: 1.5px solid lightgrey;
+  transition: all 0.3s ease;
+}
+
+.outline-button:hover {
+  color: white;
+  background: darkgrey; /* Change to a light grey on hover */
+  border: 1.5px solid darkgrey; /* Darken the border color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+/* Custom Date picker starts */
+.custom-datepicker {
+  display: inline-block;
+  position: relative;
+}
+
+.custom-input {
+  padding: 8px;
+  font-size: 14px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.react-datepicker {
+  font-size: 14px;
+}
+
+.react-datepicker__header {
+  text-align: center !important;
+  background-color: #fff !important;
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+  padding: 8px 0 !important;
+  position: relative !important;
+  border-bottom: none !important;
+}
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  color: white;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range {
+  background-color: #212529;
+  color: white;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #212529;
+  color: white;
+}
+
+.react-datepicker__year-dropdown,
+.react-datepicker__month-dropdown,
+.react-datepicker__month-year-dropdown {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.react-datepicker__year-option:hover,
+.react-datepicker__month-option:hover,
+.react-datepicker__month-year-option:hover {
+  background-color: #212529;
+  color: white;
+}
+
+.react-datepicker__month-container {
+  background: #fff;
+}
+
+.react-datepicker {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 13px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  display: inline-block;
+  position: relative;
+  line-height: initial;
+}
+
+.react-datepicker__day-name {
+  color: #aeaeae !important;
+}
+
+.react-datepicker__day--selected {
+  background: black !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+}
+
+.react-datepicker__day--outside-month {
+  color: darkgrey !important;
+}
+
+.react-datepicker__day--today {
+  background: rgb(237, 235, 235) !important;
+  color: black !important;
+  border-radius: 50% !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background: black !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+}
+
+.custom-datepicker {
+  display: inline-block;
+  position: relative;
+}
+
+.custom-input {
+  padding: 8px;
+  font-size: 16px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.custom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  /* background-color: #f7f7f7;
+  border-bottom: 1px solid #ccc; */
+}
+
+.custom-header select {
+  margin: 0 5px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.custom-header button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.custom-header button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.react-datepicker__month-container {
+  border-radius: 15px !important;
+}
+
+/*Month grid */
+
+.header-year {
+  font-size: 16px;
+}
+
+.header-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #212529;
+}
+
+.month-picker {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.month-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.month {
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.month:hover {
+  background: #f0f0f0;
+}
+
+.selected {
+  background: black;
+  color: white;
+}
+
+.react-datepicker-ignore-onclickoutside {
+  padding: 12px 20px !important;
+  border: 1px solid lightgrey !important;
+  border-radius: 24px !important;
+  font-size: 14px !important;
+  width: 100% !important;
+}
+
+.react-datepicker-ignore-onclickoutside:focus-visible {
+  outline: 1px solid #e62755;
+  caret-color: #e62755;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.modal-header-img-div {
+  cursor: pointer;
+}
+
+.new-modal-header {
+  border-bottom: 1px solid lightgrey;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.card-action-container {
+  margin-bottom: 2.5rem;
+}

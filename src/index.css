@@ -1,0 +1,25 @@
+/* Hide scrollbar for Firefox */
+/* Note: This will hide the scrollbar on Firefox */
+* {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+/* Note: This will hide the scrollbar on Chrome, Safari, and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --toastify-font-family: "DM Sans", sans-serif !important;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif !important;
+  padding: 0;
+  font-weight: 500;
+  scroll-behavior: smooth;
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
